@@ -1,0 +1,14 @@
+{
+  "name": "session-1-codeclub",
+  "version": "0.0.0",
+  "devDependencies": {
+    "vitest": "^0.25.2",
+    "wrangler": "2.1.15"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "vitest"
+  }
+}
